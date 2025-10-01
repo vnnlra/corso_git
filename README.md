@@ -9,7 +9,7 @@ Materiale per studenti di quinto anno (istituto tecnico informatico).
 4. [Esempio minimale](04_esempio_pratico_repository_locale.md)
 5. [Lavorare in locale e in remoto](05_lavorare_in_locale_e_in_remoto.md)
 6. [Creazione di un account su GitHub](06_creazione_account_server_GitHub.md)
-7. [Collegare il repository locale con quello remoto](06_creazione_account_server_GitHub.md)
+7. [Collegare il repository locale con quello remoto](07_esempio_pratico_repository_remota.md)
 
 
 ## Come usare il materiale
