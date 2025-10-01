@@ -29,5 +29,9 @@ git push -u origin HEAD
 - git push
 - git pull
 
+queste operazioni ti chiederanno di inserire il tuo nome utente e una password che non è quella con cui ti sei registrato su GitHub. L'accreditamento avviene con un **token**, la procedura per ottenerlo è descritta nel paragrafo [Generare un Personal Access Token](06_creazione_account_server_GitHub.md)
+
 ## 5) Verifica dal sito
 Vai sulla pagina GitHub/GitLab del repository: vedrai readme.txt e la cronologia con il **primo commit**.
+
+## [Torna a README](tutorial_git.md)

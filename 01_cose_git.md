@@ -20,3 +20,5 @@ Serve per:
 
 ## In sintesi
 👉 Git è una **macchina del tempo per i file di un progetto**.
+
+## [Torna a README](tutorial_git.md)

@@ -35,3 +35,5 @@ Se due persone modificano la stessa parte, Git chiede di risolvere il conflitto.
 - **Branch** = linea temporale alternativa
 - **Merge** = fusione dei salvataggi
 - **Push/Pull** = condividere i salvataggi con i compagni
+
+## [Torna a README](tutorial_git.md)
