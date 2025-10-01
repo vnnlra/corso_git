@@ -34,4 +34,4 @@ queste operazioni ti chiederanno di inserire il tuo nome utente e una password c
 ## 5) Verifica dal sito
 Vai sulla pagina GitHub/GitLab del repository: vedrai readme.txt e la cronologia con il **primo commit**.
 
-## [Torna a README](tutorial_git.md)
+## [Torna a README](README.md)

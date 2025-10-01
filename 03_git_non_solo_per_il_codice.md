@@ -31,4 +31,4 @@ Non è limitato ai programmatori!
 👉 Git è uno **strumento universale di gestione delle versioni**:
 utile per software, documentazione, siti web e qualsiasi progetto che evolve nel tempo.
 
-## [Torna a README](tutorial_git.md)
+## [Torna a README](README.md)

@@ -187,4 +187,4 @@ git diff
 
 Git è uno strumento potente, utile per qualunque tipo di progetto. Una volta padroneggiati i comandi di base, puoi esplorare funzionalità avanzate come `rebase`, `stash` e `tag`.
 
-## [Torna a README](tutorial_git.md)
+## [Torna a README](README.md)

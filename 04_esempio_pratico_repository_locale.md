@@ -33,4 +33,4 @@ dopo ogni istruzione controllare lo stato della repository con:
 ```bash
 git status
 ```
-## [Torna a README](tutorial_git.md)
+##[Torna a README](README.md)
