@@ -16,4 +16,23 @@ Materiale per studenti di quinto anno (istituto tecnico informatico).
 - Leggere i file in ordine numerico.
 - Seguire e provare i comandi nel terminale.
 
+  ## 📚 Glossario Git
+
+| Termine   | Definizione |
+|-----------|-------------|
+| **Repository** | Archivio del progetto con la cronologia delle modifiche. |
+| **Commit** | Salvataggio puntuale di uno stato del progetto. |
+| **Branch** | Ramo indipendente della cronologia del progetto. |
+| **Merge** | Fusione di due rami. |
+| **Stage / Staging Area** | Area temporanea dove si preparano i file prima del commit. |
+| **HEAD** | Puntatore all'ultimo commit del ramo attivo. |
+| **Remote** | Repository ospitato su server esterno (es. GitHub). |
+| **Push** | Invio dei commit locali al repository remoto. |
+| **Pull** | Recupero di modifiche dal repository remoto. |
+| **Clone** | Copia locale di un repository remoto. |
+| **Checkout** | Passaggio a un altro ramo o commit. |
+
+---
+
+
 ## [Tutorial essenziale Git](tutorial_git.md)
