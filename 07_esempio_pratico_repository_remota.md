@@ -1,7 +1,7 @@
 # Esempio pratico: collegare un repository locale a uno remoto
 
 ## 1) Crea un progetto locale
-(oppure usa quello creato ne paragrafo 04)
+(oppure usa quello creato in [Esempio minimale](04_esempio_pratico_repository_locale.md))
 ```bash
 mkdir progetto-git
 cd progetto-git
