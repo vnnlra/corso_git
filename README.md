@@ -34,5 +34,18 @@ Materiale per studenti di quinto anno (istituto tecnico informatico).
 
 ---
 
-
 ## [Tutorial essenziale Git](tutorial_git.md)
+
+---
+
+## Licenza
+
+![CC](https://mirrors.creativecommons.org/presskit/icons/cc.svg)
+![BY](https://mirrors.creativecommons.org/presskit/icons/by.svg)
+
+Questo tutorial è rilasciato con licenza **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Puoi condividere e adattare liberamente questo materiale per qualsiasi scopo, anche commerciale, **a condizione di attribuire la paternità** nel modo indicato dall'autore.
+
+**Autore:** Laura Vannuccini  
+
+Se modifichi o riutilizzi questo tutorial, indica chiaramente le modifiche effettuate.
