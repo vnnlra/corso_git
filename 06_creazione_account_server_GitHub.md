@@ -57,7 +57,9 @@ Esempio tipico di flusso locale:
   → Qui Git chiederà username e “password”: inserisci il **token**.
 
 (Opzionale) Memorizzare le credenziali per non reinserirle ogni volta:
+```bash
     git config --global credential.helper store
+```
 
 ## 5) In sintesi
 - La password: solo per accedere al sito.
