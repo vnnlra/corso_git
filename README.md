@@ -11,7 +11,8 @@ Materiale per studenti di quinto anno (istituto tecnico informatico).
 5. [Lavorare in locale e in remoto](05_lavorare_in_locale_e_in_remoto.md)
 6. [Creazione di un account su GitHub](06_creazione_account_server_GitHub.md)
 7. [Collegare il repository locale con quello remoto](07_esempio_pratico_repository_remota.md)
-8. [Ripristinare versioni precedenti](08_ripristinare_versioni_precedenti.md)
+8. [La filosofia di utilizzo di .gitignore](08_filosofia_gitignore.md)
+9. [Ripristinare versioni precedenti](09_ripristinare_versioni_precedenti.md)
 
 ## Come usare il materiale
 
