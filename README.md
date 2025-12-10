@@ -13,6 +13,8 @@ Materiale per studenti di quinto anno (istituto tecnico informatico).
 7. [Collegare il repository locale con quello remoto](07_esempio_pratico_repository_remota.md)
 8. [La filosofia di utilizzo di .gitignore](08_la_filosofia_di_utilizzo_di_gitignore.md)
 9. [Ripristinare versioni precedenti](09_ripristinare_versioni_precedenti.md)
+10. [La filosofia del branching](10_filosofia_branching.md)
+11. [Esempi pratici di branching](11_branching_esempi_pratici.md)
 
 ## Come usare il materiale
 
@@ -39,6 +41,7 @@ Materiale per studenti di quinto anno (istituto tecnico informatico).
 | **Restore**              | Ripristina file modificati non ancora committati.                   |
 | **Log**                  | Mostra la cronologia dei commit.                                    |
 | **Diff**                 | Mostra le differenze tra versioni.                                  |
+| **.gitignore**           | File che indica a Git quali file o cartelle non devono essere tracciati. |
 
 ---
 
