@@ -1,35 +1,37 @@
-# 🧠 Tutorial essenziale su Git
+# Tutorial essenziale Git
 
-## 🔧 Cos’è Git?
-
-**Git** è un sistema di controllo di versione distribuito. Permette di:
-- tracciare le modifiche nel codice,
-- collaborare con altri sviluppatori,
-- gestire versioni diverse di un progetto.
+Questo tutorial riassume i concetti fondamentali di Git attraverso i termini del glossario del corso.
+Non sostituisce i capitoli precedenti, ma serve come **ripasso compatto** e come riferimento rapido durante le esercitazioni.
 
 ---
 
-## 📦 1. Installazione
+## Cos’è Git
 
-**Su Debian/Ubuntu:**
+**Git** è un sistema di controllo di versione distribuito.
+Permette di:
+- tracciare le modifiche nel tempo
+- lavorare in modo ordinato sullo stesso progetto
+- collaborare senza perdere il controllo delle versioni
+
+---
+
+## Installazione
+
+Su Debian/Ubuntu:
 ```bash
 sudo apt install git
 ```
 
-**Su macOS (con Homebrew):**
-```bash
-brew install git
-```
-
-Verifica l’installazione:
+Verifica dell’installazione:
 ```bash
 git --version
 ```
 
 ---
 
-## 🔐 2. Configurazione iniziale
+## Configurazione iniziale
 
+Prima di iniziare a lavorare, è necessario configurare il nome e l’email:
 ```bash
 git config --global user.name "Tuo Nome"
 git config --global user.email "tu@email.com"
@@ -37,154 +39,207 @@ git config --global user.email "tu@email.com"
 
 ---
 
-## 📁 3. Creazione o clonazione di un repository
+## Repository
 
-**Creare un nuovo repository:**
+Un **repository** è l’archivio del progetto.
+Contiene:
+- i file del progetto
+- la cronologia completa delle modifiche
+
+Un repository può essere:
+- **locale** (sul proprio computer)
+- **remoto** (su un server come GitHub)
+
+Creazione di un repository locale:
 ```bash
-mkdir mio-progetto
-cd mio-progetto
 git init
 ```
 
-**Clonare un repository esistente:**
+Clonazione di un repository remoto:
 ```bash
-git clone https://github.com/utente/progetto.git
+git clone URL-del-repository
 ```
 
 ---
 
-## ✅ 4. Ciclo di lavoro base
+## Commit
 
-**Aggiungere file:**
-```bash
-git add nomefile        # aggiunge un singolo file
-git add .               # aggiunge tutto
-```
+Un **commit** è il salvataggio di uno stato preciso del progetto.
+Ogni commit rappresenta una versione coerente dei file.
 
-**Fare un commit:**
+Creare un commit:
 ```bash
 git commit -m "Messaggio descrittivo"
 ```
 
-**Vedere lo stato:**
+---
+
+## Stage / Staging Area
+
+La **staging area** è un’area intermedia tra i file modificati e il commit.
+
+Flusso tipico:
+1. modifichi i file
+2. li aggiungi allo stage
+3. crei il commit
+
+Aggiungere file allo stage:
+```bash
+git add nomefile
+git add .
+```
+
+---
+
+## Stato e cronologia
+
+Verificare lo stato dei file:
 ```bash
 git status
 ```
 
-**Vedere la cronologia:**
+Visualizzare la cronologia dei commit:
 ```bash
 git log
 ```
 
 ---
 
-## 🌐 5. Lavorare con un repository remoto
+## HEAD
 
-**Aggiungere un remoto:**
+**HEAD** è un puntatore che indica l’ultimo commit del ramo attivo.
+Quando si crea un nuovo commit, HEAD avanza automaticamente.
+
+---
+
+## Branch
+
+Un **branch** è un ramo indipendente della cronologia del progetto.
+Serve per sviluppare funzionalità o sperimentare senza interferire con il lavoro principale.
+
+Il branch principale è solitamente chiamato `main`.
+
+Creare un nuovo branch:
 ```bash
-git remote add origin https://github.com/utente/progetto.git
+git branch nuovo-branch
 ```
 
-**Inviare le modifiche (push):**
+Passare a un branch:
+```bash
+git checkout nuovo-branch
+```
+
+---
+
+## Merge
+
+Il **merge** unisce due branch, fondendo le loro modifiche.
+
+Il merge viene eseguito dal branch che deve ricevere le modifiche:
+```bash
+git merge nome-branch
+```
+
+---
+
+## Remote
+
+Un **remote** è un repository ospitato su un server esterno, come GitHub.
+
+Il remote principale si chiama solitamente `origin`.
+
+Visualizzare i remote configurati:
+```bash
+git remote -v
+```
+
+---
+
+## Push e Pull
+
+Inviare i commit locali al repository remoto:
 ```bash
 git push origin main
 ```
 
-**Scaricare modifiche (pull):**
+Dopo il primo push, il branch locale viene collegato a quello remoto.
+Da quel momento è sufficiente usare:
+```bash
+git push
+```
+
+Scaricare le modifiche dal repository remoto:
 ```bash
 git pull origin main
 ```
 
-> 🔁 Sostituisci `main` con `master` se necessario.
-
----
-
-## 🌿 6. Branch (rami)
-
-**Creare un nuovo ramo:**
+Analogamente, dopo il primo pull è possibile usare semplicemente:
 ```bash
-git branch nuovo-ramo
+git pull
 ```
 
-**Passare a un ramo:**
-```bash
-git checkout nuovo-ramo
+bash
+git push origin main
 ```
 
-**Creare e passare a un nuovo ramo:**
+Scaricare le modifiche dal repository remoto:
 ```bash
-git checkout -b feature-xyz
-```
-
-**Unire un ramo nel principale:**
-```bash
-git checkout main
-git merge feature-xyz
+git pull origin main
 ```
 
 ---
 
-## 🧼 7. Ignorare file
+## Diff
 
-Crea un file `.gitignore` per escludere file e cartelle inutili.
-
-### Esempio `.gitignore` per un progetto Bash:
-```
-# file temporanei
-*.swp
-*~
-*.bak
-
-# output di script
-*.log
-
-# backup personali
-*.old
-
-# file di sistema
-.DS_Store
-
-# directory da ignorare
-tmp/
-output/
-```
-
----
-
-## 🆘 8. Altri comandi utili
-
-**Annullare modifiche non committate:**
-```bash
-git checkout -- nomefile
-```
-
-**Vedere le differenze:**
+Il comando **diff** mostra le differenze tra versioni dei file:
 ```bash
 git diff
 ```
 
 ---
 
-## 📚 Glossario Git
+## Restore
 
-| Termine   | Definizione |
-|-----------|-------------|
-| **Repository** | Archivio del progetto con la cronologia delle modifiche. |
-| **Commit** | Salvataggio puntuale di uno stato del progetto. |
-| **Branch** | Ramo indipendente della cronologia del progetto. |
-| **Merge** | Fusione di due rami. |
-| **Stage / Staging Area** | Area temporanea dove si preparano i file prima del commit. |
-| **HEAD** | Puntatore all'ultimo commit del ramo attivo. |
-| **Remote** | Repository ospitato su server esterno (es. GitHub). |
-| **Push** | Invio dei commit locali al repository remoto. |
-| **Pull** | Recupero di modifiche dal repository remoto. |
-| **Clone** | Copia locale di un repository remoto. |
-| **Checkout** | Passaggio a un altro ramo o commit. |
+Il comando **restore** ripristina file modificati non ancora committati:
+```bash
+git restore nomefile
+```
 
 ---
 
-## 🏁 Conclusione
+## Reset e Revert
 
-Git è uno strumento potente, utile per qualunque tipo di progetto. Una volta padroneggiati i comandi di base, puoi esplorare funzionalità avanzate come `rebase`, `stash` e `tag`.
+Il comando **reset** sposta HEAD indietro nel tempo modificando la storia del repository:
+```bash
+git reset
+```
+
+⚠️ Da usare con cautela, soprattutto nei repository condivisi.
+
+Il comando **revert** annulla un commit creando un nuovo commit:
+```bash
+git revert ID_commit
+```
+
+---
+
+## .gitignore
+
+Il file **.gitignore** indica a Git quali file o cartelle non devono essere tracciati.
+
+Esempio:
+```text
+*.o
+*.log
+build/
+```
+
+---
+
+## Conclusione
+
+Git permette di lavorare in modo ordinato, sperimentare senza rischi e collaborare efficacemente.
+Conoscere i termini fondamentali del glossario significa comprendere davvero il funzionamento di Git.
+
 
 ## [Torna a README](README.md)
