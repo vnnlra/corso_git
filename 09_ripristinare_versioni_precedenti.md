@@ -1,4 +1,4 @@
-# Capitolo 9 Ripristinare versioni precedenti del progetto
+# Capitolo 09 - Ripristinare versioni precedenti del progetto
 
 Una delle funzioni più potenti di Git è la possibilità di **tornare indietro nel tempo**, recuperando versioni precedenti dei file o dell’intero progetto. Ogni commit è infatti uno **snapshot**, una fotografia completa del progetto in quel momento.
 

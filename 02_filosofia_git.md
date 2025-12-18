@@ -1,4 +1,4 @@
-# La filosofia di Git
+# Capitolo 02 – La filosofia di Git
 
 ## 1. Ogni commit è una fotografia
 Git non salva solo le differenze, ma un **vero snapshot** del progetto in quel momento.

@@ -1,4 +1,4 @@
-# Cos’è Git?
+# Capitolo 01 – Cos’è Git?
 
 ## Definizione
 Git è un **sistema di controllo di versione distribuito (DVCS)**.

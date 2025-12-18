@@ -1,4 +1,4 @@
-# Esempio pratico: collegare un repository locale a uno remoto
+# Capitolo 07 – Esempio pratico: collegare un repository locale a uno remoto
 
 ## 1) Crea un progetto locale
 (oppure usa quello creato in [Esempio minimale](04_esempio_pratico_repository_locale.md))

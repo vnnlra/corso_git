@@ -1,4 +1,4 @@
-# Git non solo per il codice
+# Capitolo 03 – Git non solo per il codice
 
 ## Oltre la programmazione
 Git funziona con qualsiasi progetto fatto di file.
