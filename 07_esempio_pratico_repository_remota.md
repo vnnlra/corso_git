@@ -21,6 +21,10 @@ git commit -m "Primo commit"
 git remote add origin https://github.com/tuo-utente/progetto-git.git
 git remote -v   # verifica che 'origin' punti all’URL corretto
 ```
+(Opzionale) Memorizzare le credenziali per non reinserirle ogni volta:
+```bash
+    git config --global credential.helper store
+```
 ## 4) Invia i commit locali al remoto
 ```bash
 git push -u origin HEAD
